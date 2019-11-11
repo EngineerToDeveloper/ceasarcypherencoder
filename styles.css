@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px #333;
+    padding: 1rem;
+    background: white;
+}
+
+input, label {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.3rem 0.5rem;
+}
